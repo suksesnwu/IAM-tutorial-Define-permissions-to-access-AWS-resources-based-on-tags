@@ -25,6 +25,9 @@ Create the following IAM users with specific tags:
   - `access-project = uni`
   - `access-team = qas`
   - `cost-center = 123456`
+ 
+  ![four users created](https://github.com/user-attachments/assets/d51edeee-617f-4061-9753-b3a082834108)
+
 
 ### Step 2: Create the ABAC Policy
 Create an IAM permissions policy named **access-same-project-team** that allows actions based on tag conditions.
@@ -37,6 +40,8 @@ Create an IAM permissions policy named **access-same-project-team** that allows 
   - `access-peg-quality-assurance`
   - `access-uni-engineering`
   - `access-uni-quality-assurance`
+
+![roles](https://github.com/user-attachments/assets/052ce0e4-52d6-444e-a4ee-03ae2a2b5444)
 
 ### Step 4: Test Creating Secrets
 - Sign in as an IAM user.
