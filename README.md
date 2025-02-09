@@ -48,6 +48,8 @@ Create an IAM permissions policy named **access-same-project-team** that allows 
 - Attempt to create secrets with various tag combinations.
 - Validate that secrets can only be created if tags match the assigned role’s conditions.
 
+![Testing-IAM-Role-Based-Based-Secret-Creation-in-AWS-Secrets-Manager](https://github.com/user-attachments/assets/bd414eaf-ff80-42ae-ac1b-79f71397f005)
+
 ### Step 5: Test Viewing Secrets
 - Sign in with IAM users.
 - Verify that users can only view secrets associated with their team and project.
